@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(https://i0.wp.com/www.psicologiamsn.com/wp-content/uploads/2014/10/dia-noite.png?ssl=1);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: #f2f2f2;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+h2{
+    margin-bottom:10px;
+    color: #f9f9f9;
+    
+}
+.form{
+    margin: 10% auto 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200px ;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    max-width: 300px; 
+    box-shadow: 0 0 10px rgb(235, 238, 237);
+    padding: 20px;
+}
+input{
+width: 100%;
+height: 25px;
+border-radius: 3px;
+border: none;
+padding: 3px 10px;
+padding-left: 30px;
+margin-bottom: 10px;
+
+}
+
+.login{
+   margin-bottom: 15px;
+   display: flex;
+   align-items: center;
+   
+}
+
+.login i{
+    position: absolute;
+    transform: translateY(-50%);
+    color: #555;
+    margin: 5px 5px 0;
+}
+#submit{
+   width: 150px;
+   cursor:pointer;
+   padding-left: 10px;
+   font-size: 15px;
+   font-weight: 600;
+}
+#submit:hover{
+    background-color: #10637a;
+    transition: all 0.8s;
+    border: 1px solid #000;
+}
+
+hr{
+    margin: 10px 0;
+    color: inherit;
+    border: 0;
+    border-top: #f2f2f2 solid;
+    opacity: .25;
+}
+ a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #10637a;
+    transition: all 0.8s;
+}
+.tema{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    margin-top: 5px;
+}
+.tema i{
+    
+    color: yellow;
+}
+.tema i:hover{
+    color: #fff;
+    transition: all 0.2s;
+}
+.btn{
+    background-color: #555;
+    width: 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+}
